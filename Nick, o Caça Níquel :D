@@ -10,7 +10,7 @@ printf("Seja bem-vindo, eu sou Nick, seu furtador virtual. \n Vamos jogar? \n");
 
 srand(time(NULL)); //Vai gerar um número aleatório 
 
-for(int i = 0; i<1; i++){
+for(int i = 0; i<1; i++){ //Toda vez que um numero for gerado ele entrará em um veor diferente para ser armazenado
 
 v1[i] = rand() %9; 
 printf ("%d\n",v1[i]);
